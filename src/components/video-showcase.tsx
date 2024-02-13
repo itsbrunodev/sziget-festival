@@ -18,10 +18,9 @@ export function VideoShowcase() {
               className="full"
               src="https://www.youtube.com/embed/hJB9pfmUULI?si=GwAtgd0XcBmVo0Gm"
               title="YouTube video player"
-              /* frameBorder={0} */
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-            ></iframe>
+            />
           </div>
           <div className="flex flex-col items-center gap-4">
             <h3 className="whitespace-nowrap text-3xl text-zinc-700 sm:text-7xl">

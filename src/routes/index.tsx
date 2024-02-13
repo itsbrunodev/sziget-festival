@@ -14,10 +14,9 @@ export function Index() {
       <Artists />
       <FreshNews />
       <About />
-      <div className="w-full sm:px-8 px-4">
+      <div className="w-full px-4 sm:px-8">
         <hr className="h-px w-full text-zinc-500" />
       </div>
-      {/* <div className="mx-8 h-px w-full border-t-[1px] border-t-zinc-300" /> */}
       <VideoShowcase />
       <Footer />
     </div>

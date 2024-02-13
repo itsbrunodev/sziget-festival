@@ -2,58 +2,6 @@ import { ParallaxScroll } from "./animated/parallax-scroll";
 
 export function Artists() {
   const artistList = [
-    /* { name: "JOOST" },
-    { name: "AZAHRIAH" },
-    { name: "FRED AGAIN.." },
-    { name: "MARTIN GARRIX" },
-    { name: "MARTIN GARRIX" }, */
-    /* { name: "ANOTR", image: false },
-    { name: "AURORA", image: false },
-    { name: "STORMZY", image: false },
-    { name: "GRANDSON", image: false },
-    { name: "SAM SMITH", image: false },
-    { name: "LOUIS TOMLINSON", image: false }, */
-    /* "FRED AGAIN",
-    "MARTIN GARRIX",
-    "SAM SMITH",
-    "STORMZY",
-    "LOUIS TOMLINSON",
-    "FOUR TET",
-    "BIG THIEF",
-    "FONTAINES D.C.",
-    "AURORA",
-    "AZAHRIAH",
-    "BECKY HILL",
-    "ARTBAT",
-    "L'IMPÉRATRICE",
-    "CRYSTAL FIGHTERS",
-    "RICHIE HAWTIN",
-    "ANOTR",
-    "HONEY DIJON",
-    "DOM DOLLA",
-    "OVERMONO",
-    "NIA ARCHIVES",
-    "ARGY",
-    "ERIS DREW & OCTO OCTO",
-    "MEUTE",
-    "GRANDSON",
-    "LIBERATO",
-    "ZOE WEES",
-    "JOKER OUT",
-    "GOLDBAND",
-    "YARD ACT",
-    "JOESEF",
-    "WARHAUS",
-    "ELLEN ALLIEN",
-    "FIDELES",
-    "CHLOÉ CAILLET",
-    "AMÉMÉ",
-    "NOVA TWINS",
-    "JOOST",
-    "BLONDSHELL",
-    "WEDNESDAY",
-    "DAGNY",
-    "PIP BLOM", */
     {
       name: "Fred again..",
       url: "https://open.spotify.com/artist/4oLeXFyACqeem2VImYeBFe",
@@ -222,7 +170,7 @@ export function Artists() {
 
   return (
     <div className="flex max-w-content flex-col items-center py-24">
-      <div className="flex flex-col gap-6 text-center px-4">
+      <div className="flex flex-col gap-6 px-4 text-center">
         <h2 className="text-4xl font-extrabold text-zinc-900" id="line-up">
           2024 LINE-UP
         </h2>
@@ -232,31 +180,6 @@ export function Artists() {
           as Martin Garrix, Azahriah, Joost, Sam Smith and many more.
         </p>
       </div>
-      {/* <div className="flex select-none flex-col gap-12 text-center tracking-wide">
-        {artistList
-          .filter((artist) => artist.image)
-          .map((artist, i) => (
-            <div className="group relative" key={i}>
-              <h3 className="z-10 text-6xl font-black text-zinc-400 transition-all group-hover:text-zinc-900">
-                {artist.name}
-              </h3>
-              <img
-                className="center-absolute absolute -z-10 h-48 w-96 origin-top object-cover opacity-0 transition-all group-hover:opacity-100"
-                src={`/artists/${artist.name.toLowerCase().replace(/ /, "_")}.jpeg`}
-              />
-            </div>
-          ))}
-        <div className="!mt-12 flex w-full flex-wrap items-center justify-center gap-2 text-4xl font-bold text-zinc-400">
-          {artistList
-            .filter((artist) => !artist.image)
-            .map((artist, i) => (
-              <>
-                {i !== 0 && <span className="px-2 text-3xl">/</span>}
-                <p key={i}>{artist.name}</p>
-              </>
-            ))}
-        </div>
-      </div> */}
       <ParallaxScroll
         className="h-full px-4 sm:px-0"
         images={artistList.map(

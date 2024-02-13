@@ -18,10 +18,6 @@ function Image(
       href={props.url}
       target="_blank"
     >
-      {/* <h2 className="absolute bottom-4 left-4 z-10 text-xs font-bold tracking-widest text-white">
-        {props.alt}
-      </h2>
-      <div className="absolute bottom-0 left-0 h-24 w-full bg-gradient-to-b from-transparent to-black" /> */}
       <p className="pb-2 text-xs font-light text-zinc-800">{props.alt}</p>
       <img
         src={props.src}
@@ -29,16 +25,13 @@ function Image(
         draggable={false}
         alt={props.alt}
       />
-      {/* <img
-        src={props.src}
-        className="full absolute top-0 -z-10 scale-75 object-cover object-center blur-3xl saturate-150"
-        draggable={false}
-        alt={props.alt}
-      /> */}
     </DynamicTag>
   );
 }
 
+/**
+ * https://ui.aceternity.com/components/parallax-scroll
+ */
 export function ParallaxScroll({
   images,
   altNames,
@@ -51,16 +44,11 @@ export function ParallaxScroll({
   className?: string;
 }) {
   const gridRef = useRef<any>(null);
-  const { scrollYProgress } = useScroll({
-    /* container: gridRef, */
-    // remove this if your container is not fixed height
-    /* offset: ["start start", "end start"], */
-    // remove this if your container is not fixed height
-  });
+  const { scrollYProgress } = useScroll({});
 
-  const translateFirst = useTransform(scrollYProgress, [0, 1], [0, -100]);
-  const translateSecond = useTransform(scrollYProgress, [0, 1], [0, 100]);
-  const translateThird = useTransform(scrollYProgress, [0, 1], [0, -100]);
+  const translateFirst = useTransform(scrollYProgress, [0, 1], [0, -200]);
+  const translateSecond = useTransform(scrollYProgress, [0, 1], [0, 200]);
+  const translateThird = useTransform(scrollYProgress, [0, 1], [0, -200]);
 
   const third = Math.ceil(images.length / 3);
 

@@ -2,6 +2,9 @@
 
 Egy koppintás a Sziget Fesztivál honlapjáról egy teljesen más designt használva. A weboldal mondhatni fél kész ugyanis csak 1 darab oldal található meg, ráadásul a HTML része egy kicsit össze van csapva és ráfér egy alapos finomítás.
 
+> [!NOTE]  
+> A weboldal elsődlegesen telefonnál nagyobb eszközökre lett csinálva és csak átfutottam a reszponzivitáson, ami azt jelenti, hogy néhány telefonon nem jelenik meg úgy ahogy kéne.
+
 ### Technológiák amiket használtam
 
 - [Vite](https://vitejs.dev/)
@@ -33,3 +36,4 @@ pnpm start
 
 - [Design ötlet](https://dribbble.com/shots/4028288-Fresh-Island-Festival-Website/attachments/925118?mode=media)
 - [Sziget Fesztivál hivatalos honlapja](https://szigetfestival.com/en/)
+- [Demo](https://sziget-festival.itsbruno.dev)

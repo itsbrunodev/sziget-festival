@@ -23,7 +23,7 @@ export function VideoShowcase() {
             />
           </div>
           <div className="flex flex-col items-center gap-4">
-            <h3 className="whitespace-nowrap text-3xl text-zinc-700 sm:text-7xl">
+            <h3 className="sm:whitespace-nowrap text-3xl text-zinc-700 sm:text-7xl">
               BEST MOMENTS
             </h3>
             <a

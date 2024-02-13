@@ -12,8 +12,8 @@ export function Footer() {
     <div className="flex w-full flex-col">
       <div className="flex w-full justify-center bg-primary-100">
         <div className="flex w-full max-w-content flex-col gap-12 sm:flex-row">
-          <div className="flex flex-col gap-6 pt-12 text-center sm:flex-row sm:gap-0 sm:py-12 sm:text-start">
-            <h2 className="whitespace-nowrap text-3xl font-black text-zinc-800">
+          <div className="flex flex-col gap-6 pt-12 sm:px-0 px-4 text-center sm:flex-row sm:gap-0 sm:py-12 sm:text-start">
+            <h2 className="sm:whitespace-nowrap text-3xl font-black text-zinc-800">
               TICKETS & MORE
             </h2>
             <p className="mx-auto text-lg sm:max-w-[30%]">

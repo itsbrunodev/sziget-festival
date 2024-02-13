@@ -9,7 +9,7 @@ export function Navbar() {
 
   return (
     <div className="fixed z-40 flex w-full justify-center bg-white/50 backdrop-blur-lg">
-      <div className="flex w-full items-center justify-between px-8 py-4">
+      <div className="flex w-full items-center justify-between sm:px-8 px-4 py-4">
         <a
           className="flex items-center gap-2 transition-opacity hover:opacity-80"
           href="/"

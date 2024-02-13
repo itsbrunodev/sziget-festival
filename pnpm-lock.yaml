@@ -5,39 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@fontsource-variable/figtree':
-    specifier: ^5.0.19
-    version: 5.0.19
   '@fontsource-variable/inter':
     specifier: ^5.0.16
     version: 5.0.16
-  '@fontsource-variable/lexend':
-    specifier: ^5.0.18
-    version: 5.0.18
-  '@fontsource-variable/lexend-deca':
-    specifier: ^5.0.8
-    version: 5.0.8
-  '@fontsource-variable/lexend-exa':
-    specifier: ^5.0.18
-    version: 5.0.18
-  '@fontsource-variable/lexend-mega':
-    specifier: ^5.0.16
-    version: 5.0.16
-  '@fontsource-variable/lexend-peta':
-    specifier: ^5.0.8
-    version: 5.0.8
-  '@fontsource-variable/montserrat':
-    specifier: ^5.0.17
-    version: 5.0.17
-  '@fontsource-variable/mulish':
-    specifier: ^5.0.17
-    version: 5.0.17
-  '@fontsource-variable/outfit':
-    specifier: ^5.0.8
-    version: 5.0.8
-  '@fontsource-variable/work-sans':
-    specifier: ^5.0.17
-    version: 5.0.17
   '@fontsource/krona-one':
     specifier: ^5.0.8
     version: 5.0.8
@@ -532,48 +502,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@fontsource-variable/figtree@5.0.19:
-    resolution: {integrity: sha512-4R7dcsjNJxAhamtOXDlsZgXIPYShzP2sloFFaQXOO9bUHk1thkQWElXzvlinzzI17H59iexUf987m7XTOv/zyQ==}
-    dev: false
-
   /@fontsource-variable/inter@5.0.16:
     resolution: {integrity: sha512-k+BUNqksTL+AN+o+OV7ILeiE9B5M5X+/jA7LWvCwjbV9ovXTqZyKRhA/x7uYv/ml8WQ0XNLBM7cRFIx4jW0/hg==}
-    dev: false
-
-  /@fontsource-variable/lexend-deca@5.0.8:
-    resolution: {integrity: sha512-umzhec52A6qYSPEGggp7c+zEklRxU9JWMrZH0WxLpjPM7Zh6l+ayuoOny4d2EQcOSYFbGjhrlVCE6REhuYwNAQ==}
-    dev: false
-
-  /@fontsource-variable/lexend-exa@5.0.18:
-    resolution: {integrity: sha512-dqWW7AOBTTqlZWcrGwXXE7Yj0iXIRs6vaqQQ/I9VNf/dIXvwRGMpk/3mqUzJuk+wJHHd9RZzuD9bRHRe8MM12Q==}
-    dev: false
-
-  /@fontsource-variable/lexend-mega@5.0.16:
-    resolution: {integrity: sha512-opiKkkd0JuuoEUGO4pwgN/SCkc+jBNmTqOOwj/tSFJDGmGJSj1MFJffr+aY93L7TZuheVelHxHqXwy2kY5Av/Q==}
-    dev: false
-
-  /@fontsource-variable/lexend-peta@5.0.8:
-    resolution: {integrity: sha512-dQZlCa3FYW0yqlHbvU120LQNPKKtk80MQu2KgIYpL7bYI3U+EF8a9fn4fN/4S7XwLjv0koZBhRX/1d8ScVgZig==}
-    dev: false
-
-  /@fontsource-variable/lexend@5.0.18:
-    resolution: {integrity: sha512-LZ/73bWPtr+0NpA2n0wJeb1wmx5qaza4NvbngvGK75m0AhVE3qtgH/fqT5rS/5486C6rWbbFu1lJqU6EWN4bow==}
-    dev: false
-
-  /@fontsource-variable/montserrat@5.0.17:
-    resolution: {integrity: sha512-kRPFY+sLUPE4fGTkuHu6phebYTwizsbGVIvqYa2vysRLPKUxwoiy1lb9Z4Qul8qoVspXnl0b9zA5LSn0scD9vA==}
-    dev: false
-
-  /@fontsource-variable/mulish@5.0.17:
-    resolution: {integrity: sha512-oGgP/xSFBT1ijiyvYsNarnEFSp6SbNUzCSa1WdyAtwgvNwkR6RMYz9AdxleEP+4zYFxH40xVCZ0jVmB0YnY2Ug==}
-    dev: false
-
-  /@fontsource-variable/outfit@5.0.8:
-    resolution: {integrity: sha512-j4JHCbuk2+Nl7PwTVT+RJKTDMDw7TWWt/85CIucD7KvOS7Iv0IiymE5ur21/aFbTwamOHrXX91WrQZHN7QDrmw==}
-    dev: false
-
-  /@fontsource-variable/work-sans@5.0.17:
-    resolution: {integrity: sha512-5aZGlBgqWhFympHYv35OP8Slz3y90jUQhYoeIQDvanfkoP/mwj+6rDomerN6qvYWQxjReE+bPZhiuceJLXrgIQ==}
     dev: false
 
   /@fontsource/krona-one@5.0.8:

@@ -10,17 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fontsource-variable/figtree": "^5.0.19",
     "@fontsource-variable/inter": "^5.0.16",
-    "@fontsource-variable/lexend": "^5.0.18",
-    "@fontsource-variable/lexend-deca": "^5.0.8",
-    "@fontsource-variable/lexend-exa": "^5.0.18",
-    "@fontsource-variable/lexend-mega": "^5.0.16",
-    "@fontsource-variable/lexend-peta": "^5.0.8",
-    "@fontsource-variable/montserrat": "^5.0.17",
-    "@fontsource-variable/mulish": "^5.0.17",
-    "@fontsource-variable/outfit": "^5.0.8",
-    "@fontsource-variable/work-sans": "^5.0.17",
     "@fontsource/krona-one": "^5.0.8",
     "@icons-pack/react-simple-icons": "^9.3.0",
     "@radix-ui/react-slot": "^1.0.2",

@@ -23,7 +23,7 @@ export function Navbar() {
             FESTIVAL
           </h1>
         </a>
-        <div className="hidden items-center gap-4 text-xs font-semibold text-zinc-900 sm:flex">
+        <div className="hidden items-center gap-6 text-xs font-semibold text-zinc-900 sm:flex">
           {ROUTES.map((route, i) => (
             <a
               className={cn(

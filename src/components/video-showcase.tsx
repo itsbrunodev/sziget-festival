@@ -13,7 +13,7 @@ export function VideoShowcase() {
       </div>
       <div className="relative flex w-full justify-center bg-zinc-800">
         <div className="center relative flex w-full max-w-content px-8 py-20">
-          <div className="absolute bottom-[150px] aspect-video w-11/12 bg-zinc-500 shadow-2xl sm:bottom-[185px]">
+          <div className="absolute bottom-[150px] aspect-video w-11/12 bg-zinc-500 shadow-xl shadow-zinc-900 sm:bottom-[185px]">
             <iframe
               className="full"
               src="https://www.youtube.com/embed/hJB9pfmUULI?si=GwAtgd0XcBmVo0Gm"

@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none !important;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: theme("colors.zinc.300");
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: theme("colors.zinc.400");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#heading-font {
+  font-family: "Krona One", sans-serif;
+  /* display: inline-block;
+  transform: scale(1.15, 0.8); */
+}
+
+body {
+  font-family: "Inter Variable", sans-serif;
+}
+
+@layer base {
+  * {
+    @apply m-0 box-border scroll-smooth p-0;
+  }
+
+  html {
+    @apply h-full min-h-[100vh] overflow-x-hidden overflow-y-scroll;
+  }
+
+  body,
+  #root,
+  #app {
+    @apply relative mx-auto my-0 h-full min-h-full max-w-full px-0;
+  }
+
+  .full {
+    @apply h-full w-full;
+  }
+
+  .center {
+    @apply items-center justify-center;
+  }
+
+  .center-absolute {
+    @apply left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+}
